@@ -1,22 +1,61 @@
+.suggestedCategoriesFAQ {
 
-/* li{list-style-type: none;}
-.search-bar-t {
-    position: relative;
-  }
-  
-  .search-bar-t::after {
-    content: "";
-    position: absolute;
-    right: 661px;
-    transform: translateY(162%);
-    width: 20px; 
-    height: 20px; 
-    background-image: url("images/union.png");
-    background-size: cover;
-      
-  }
- .fa-question-circle{
-    color: #6BB4FD;
- } */
+  display: flex;
+  gap: 25px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 20px;
+}
 
-* {background-color: aqua;}
+.searchBarFaq {
+  width: 50%;
+  height: 56px;
+  color: #616161;
+  border: 2px #D7DFE4 solid;
+  border-radius: 5px;
+  margin-top: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+
+.taglineFAQ {
+  font-size: 15px;
+  font-weight: 400;
+  text-transform: math-auto;
+
+}
+
+.secondFAQinternalUL {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  margin-top: 10px;
+
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {}
+
+
+
+@media (max-width: 768px) {
+  .suggestedCategoriesFAQ {
+    display: none;
+  }
+
+  .searchBarFaq {
+    width: 80%;
+    padding-left: 20px;
+
+  }
+
+  .taglineFAQ {
+    font-size: 13px;
+  }
+
+
+  .secondFAQinternalUL {
+  display: inline-grid;
+  }
+}
