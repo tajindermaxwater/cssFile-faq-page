@@ -1,0 +1,22 @@
+
+/* li{list-style-type: none;}
+.search-bar-t {
+    position: relative;
+  }
+  
+  .search-bar-t::after {
+    content: "";
+    position: absolute;
+    right: 661px;
+    transform: translateY(162%);
+    width: 20px; 
+    height: 20px; 
+    background-image: url("images/union.png");
+    background-size: cover;
+      
+  }
+ .fa-question-circle{
+    color: #6BB4FD;
+ } */
+
+* {background-color: aqua;}
