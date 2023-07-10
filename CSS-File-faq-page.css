@@ -53,7 +53,10 @@
 }
 
 .accordion-button {
-  line-height: 2.5
+  line-height: 2.5;
+  font-family: 'Roboto';  
+  font-weight: 500; 
+  font-size: 18px;
 } 
 
 @media (min-width: 769px) and (max-width: 1024px) {}
@@ -81,7 +84,8 @@
   grid-template-columns: auto auto;
       }
 .accordion-button {
-    line-height: 1.5
+    line-height: 1.5;
+   font-size: 14px;
   }
 
 }
