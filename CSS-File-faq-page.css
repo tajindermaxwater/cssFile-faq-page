@@ -58,7 +58,13 @@
  
 } 
 
-@media (min-width: 769px) and (max-width: 1024px) {}
+@media (min-width: 769px) and (max-width: 1024px) {
+  .accordion-button {
+    line-height: 1.7;
+    padding: 15px;
+  }
+  
+}
 
 
 
