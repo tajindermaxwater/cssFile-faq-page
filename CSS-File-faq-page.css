@@ -34,6 +34,24 @@
 
 }
 
+.faq-note {
+  background-color: #FFECED;
+  padding: 7px 15px ;
+  margin-bottom: 15px;
+
+}
+.faq-note1{
+  font-size: 15px;
+  font-weight: 500;
+  color:#EC1C24; 
+}
+
+.faq-note2{
+  color: #616161;
+  font-size: 15px;
+  font-weight: 400;
+}
+
 
 @media (min-width: 769px) and (max-width: 1024px) {}
 
