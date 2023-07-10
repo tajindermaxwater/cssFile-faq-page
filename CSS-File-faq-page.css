@@ -52,6 +52,9 @@
   font-weight: 400;
 }
 
+.accordion-button {
+  line-height: 2.5
+} 
 
 @media (min-width: 769px) and (max-width: 1024px) {}
 
@@ -76,5 +79,9 @@
   .secondFAQinternalUL {
   display: inline-grid;
   grid-template-columns: auto auto;
+      }
+.accordion-button {
+    line-height: 1.5
   }
+
 }
