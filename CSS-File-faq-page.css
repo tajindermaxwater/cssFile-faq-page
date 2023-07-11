@@ -65,6 +65,9 @@
   .searchBarFaq {
     width: 70%;
   }
+    .suggestedCategoriesFAQ {
+    gap: 12px;
+  }
 
 }
 
